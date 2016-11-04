@@ -10,6 +10,8 @@ public class SumSubset {
     public static void main(String[] args) {
         SumSubset SS = new SumSubset();
         Scanner scan = new Scanner(System.in);
+        int flag;
+        do{
         System.out.println("Enter size of array");
         int n = scan.nextInt();
         int[] arr = new int[n];
@@ -20,9 +22,11 @@ public class SumSubset {
         
         System.out.println("Enter number");
         int num = scan.nextInt();
-        System.out.println("\n\nSubset of '"+num+"' possible?\n ---->  "+SS.possible(arr,num));
+        System.out.println("\n\nIs Subset of '"+num+"' possible?\n ---->  "+SS.possible(arr,num));
+          System.out.println("\nDo you want to continue? (1 for yes and 0 for no)");
+          flag = scan.nextInt();
         
-        
+        }while(flag==1);
         
     }
     
