@@ -70,3 +70,22 @@ Enter number
 Is Subset of '13' possible?
 
  ---->  false
+
+---------------------------------------------------------------------------------
+
+Enter size of array
+
+4
+
+Enter array of integers
+
+5 11 13 19
+
+Enter number
+
+21
+
+
+Is Subset of '21' possible?
+
+ ---->  false
