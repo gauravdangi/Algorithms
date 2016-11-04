@@ -1,3 +1,5 @@
+# Detect a cycle in a Linked List
+
 A linked list is said to contain a cycle if any node is visited more than once while traversing the list.
 
 Complete the function provided for you in your editor. It has one parameter: a pointer to a Node object 
@@ -18,15 +20,21 @@ must return false. The binary integer corresponding to the boolean value returne
 printed to stdout by our hidden code checker.
 
 --------------------------------------------------------------------------------------------------------------
+
 Input (stdin)
+
 1
+
 Your Output (stdout)
+
 0
 1
 1
 0
 1
+
 Expected Output
+
 0
 1
 1
