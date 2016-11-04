@@ -36,7 +36,7 @@ public class SumSubset {
               if(check(arr,num%small)) return true;
             }
             else{
-             if(check(arr,(small+num%arr[i]))) return true;
+             if(check(arr,(arr[i]+num%arr[i]))) return true;
             }
           }
         }
