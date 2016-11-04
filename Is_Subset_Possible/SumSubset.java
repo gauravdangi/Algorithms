@@ -33,7 +33,8 @@ public class SumSubset {
           if(check(arr,num%arr[i])) return true;
           
             else if(check(arr,(arr[i]+num%arr[i]))) return true;
-           
+            else if(divisible(arr,num%arr[i])) return true;
+          
         }
         return false;
     }
@@ -53,5 +54,12 @@ public class SumSubset {
       }
      }
      return small;
+    }
+    
+    public static boolean divisible(int[] arr,int num){
+        for(int i=0;i<arr.length;i++){
+          if(num%arr[i]==0) return true;
+        }
+        return false;
     }
 }
