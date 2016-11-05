@@ -21,22 +21,21 @@ public class SumSubset {
         }
         
         System.out.println("Enter number");
-        int num = scan.nextInt();
+        long num = scan.nextInt();
         System.out.println("\n\nIs Subset of '"+num+"' possible?\n ---->  "+SS.possible(arr,num));
           System.out.println("\nDo you want to continue? (1 for yes and 0 for no)");
           flag = scan.nextInt();
         
         }while(flag==1);
         
+        
+        
     }
     
-    public boolean possible(int[] arr,int num){
-        //int small = smallest(arr);
-        if(check(arr,1)) return true;
-        if(divisible(arr,num)) return true;
-        for(int i=0;i<arr.length;i++){
+    public boolean possible(int[] arr,long num){
+       if(check(arr,1)) return true;
+       for(int i=0;i<arr.length;i++){
           if(check(arr,num%arr[i])) return true;
-          
             else if(check(arr,(arr[i]+num%arr[i]))) return true;
             else if(divisible(arr,num%arr[i])) return true;
           
@@ -44,7 +43,7 @@ public class SumSubset {
         return false;
     }
     
-    public static boolean check(int[] arr,int num){
+    public static boolean check(int[] arr,long num){
      for(int i=0;i<arr.length;i++){
       if(arr[i]==num) return true;
      }
@@ -61,7 +60,7 @@ public class SumSubset {
      return small;
     }*/
     
-    public static boolean divisible(int[] arr,int num){
+    public static boolean divisible(int[] arr,long num){
         for(int i=0;i<arr.length;i++){
           if(num%arr[i]==0) return true;
         }
