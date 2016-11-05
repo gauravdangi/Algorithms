@@ -33,6 +33,7 @@ public class SumSubset {
     public boolean possible(int[] arr,int num){
         int small = smallest(arr);
         if(check(arr,1)) return true;
+        if(divisible(arr,num)) return true;
         for(int i=0;i<arr.length;i++){
           if(check(arr,num%arr[i])) return true;
           
