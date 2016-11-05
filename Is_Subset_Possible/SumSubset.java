@@ -31,7 +31,7 @@ public class SumSubset {
     }
     
     public boolean possible(int[] arr,int num){
-        int small = smallest(arr);
+        //int small = smallest(arr);
         if(check(arr,1)) return true;
         if(divisible(arr,num)) return true;
         for(int i=0;i<arr.length;i++){
@@ -50,7 +50,7 @@ public class SumSubset {
      }
      return false;
     }
-    
+    /*
     public static int smallest(int[] num){
      int small = num[0];
      for(int i=1;i<num.length;i++){
@@ -59,7 +59,7 @@ public class SumSubset {
       }
      }
      return small;
-    }
+    }*/
     
     public static boolean divisible(int[] arr,int num){
         for(int i=0;i<arr.length;i++){
