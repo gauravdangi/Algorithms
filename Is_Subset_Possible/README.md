@@ -90,4 +90,10 @@ Is Subset of '21' possible?
 
  ---->  true
 
+| Language |	Execution time |
+
+|   C++	   |    0.016s      |
+  
+|   Java   |   	0.021s      |
+
 # Happy Coding
