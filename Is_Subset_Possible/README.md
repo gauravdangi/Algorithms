@@ -90,10 +90,10 @@ Is Subset of '21' possible?
 
  ---->  true
 
-| Language |	Execution time |
+**Execution Time**
 
-|   C++	   |    0.016s      |
-  
-|   Java   |   	0.021s      |
+C++ -> 0.016 seconds
+
+Java --> 0.021 seconds
 
 # Happy Coding
