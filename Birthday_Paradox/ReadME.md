@@ -8,8 +8,8 @@ These conclusions are based on the assumption that each day of the year (except 
 
 
 
-# ------------------------------------------ Output --------------------------------------------------------
-
+## --------------------------------------------------------------------------------------------------
+```
 ============================================================================================
     ----------------------------    Birthday Paradox    -------------------------------
 ============================================================================================
@@ -36,3 +36,6 @@ Pobability/Chances that two people in a room sharing same birth date is = || 94.
 Do you want to continue? (1 for Yes or 0 for No)
  :=> 0
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+# HAPPY CODING :)
