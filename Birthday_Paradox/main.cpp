@@ -14,8 +14,7 @@ int main()
     do{
       cout<<"\nEnter number of people in room : ";
       cin>>num;
-      double p = probability(num);
-      cout<<"\nPobability/Chances that two people in a room sharing same birth date is = || "<<p<<" % ||";
+      cout<<"\nPobability/Chances that two people in a room sharing same birth date is = || "<<probability(num)<<" % ||";
       cout<<"\n\nDo you want to continue? (1 for Yes or 0 for No) \n :=> ";
       cin>>flag;
       cout<<"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -23,6 +22,7 @@ int main()
 
     return 0;
 }
+
 double probability(int n){
  double p=1;
  if(n==1) return 100;
