@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1481476514 source:f:\projects\algorithms\birthday paradox\birthday_paradox\main.cpp
+	<iostream>
+	<math.h>
+	<conio.h>
+
