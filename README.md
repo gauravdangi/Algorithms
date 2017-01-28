@@ -2,6 +2,6 @@
 
 ## Problems and their implementations
 
-Algorithms implementations in C, C++, Java, etc
+Implementations in C, C++, Java, etc
 
 ## Happy Coding :)
