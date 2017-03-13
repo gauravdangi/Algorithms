@@ -1,4 +1,4 @@
-Write a program to detect a longest sequence of letter in a line or sentence.
+Write a program to detect a longest sequence of letters in a input line/string or sentence.
 
 # Examples
 
