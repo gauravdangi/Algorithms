@@ -1,4 +1,6 @@
-# Outputs
+Write a program to detect a longest sequence of letter in a line or sentence.
+
+# Examples
 
 Enter String !
 that is on abcd but he don't give a xyz
