@@ -7,6 +7,7 @@ Enter String !
 that is on abcd but he don't give a xyz
 
 You Entered -> that is on abcd but he don't give a xyz
+
 ---------------
 
 maximum length = 4
