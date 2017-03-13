@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478931255 source:f:\projects\algorithms\is_subset_possible\issubsetpossible\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+

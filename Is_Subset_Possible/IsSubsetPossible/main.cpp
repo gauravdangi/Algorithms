@@ -15,26 +15,29 @@ int main()
         int flag;
         do{
 
-        cout<<"\nEnter size of array : ";
-        cin>>n;
-        int arr[n];
-        cout<<"\nEnter array of integers : ";
+        //cout<<"\nEnter size of array : ";
+        //cin>>n;
+        n=4;
+        int arr[] = {3,8,11,19};
+        /*cout<<"\nEnter array of integers : ";
         for(int i=0;i<n;i++){
          cin>>arr[i];
         }
-
-        cout<<"\nEnter number: ";
-        cin>>num;
+*/
+       // cout<<"\nEnter number: ";
+       // cin>>num;
+       num = 29;
         int a = possible(arr,num,n);
         string ans;
         if(a==1) ans = "TRUE";
         else ans = "FLASE";
         cout<<"\n\nIs Subset of '"<<num<<"' is possible?\n ---->  "<<ans;
-          cout<<"\nDo you want to continue? (1 for yes and 0 for no)";
-          cin>>flag;
+         // cout<<"\nDo you want to continue? (1 for yes and 0 for no)";
+          //cin>>flag;
+          flag=0;
 
         }while(flag==1);
-        getch();
+        //getch();
     return 0;
 }
 
