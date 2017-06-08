@@ -26,6 +26,6 @@ ___________________________________________________
 Enter number of integers: 2
 
 Enter numbers:-
-2 3
+2 1
 
-Sum of all number formed from input digits is : ||  55  ||
+Sum of all number formed from input digits is : ||  33  ||
