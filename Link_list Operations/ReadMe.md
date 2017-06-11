@@ -11,8 +11,11 @@ Link list Operations
 Enter operation you want to perform
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 1
@@ -32,8 +35,11 @@ Do you want to continue? (Press 1 for YES and others for NO)
 Enter operation you want to perform
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 1
@@ -53,8 +59,11 @@ Do you want to continue? (Press 1 for YES and others for NO)
 Enter operation you want to perform
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 1
@@ -74,8 +83,11 @@ Do you want to continue? (Press 1 for YES and others for NO)
 Enter operation you want to perform
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 1
@@ -95,8 +107,11 @@ Do you want to continue? (Press 1 for YES and others for NO)
 Enter operation you want to 
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 2
@@ -116,8 +131,11 @@ Do you want to continue? (Press 1 for YES and others for NO)
 Enter operation you want to perform
 
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 3
@@ -133,9 +151,13 @@ Do you want to continue? (Press 1 for YES and others for NO)
 1
 
 Enter operation you want to perform
+
 1]Insertion
+
 2]Deletion
+
 3]Searching
+
 4]Count
 
 -> 4
