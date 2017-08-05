@@ -24,6 +24,7 @@ public class RadixSort {
      }
     }
     
+    // ---------- getmax() method : will return number of digit of maximum number (1001 -> 4) --------
     int getmax(int[] arr){
      int max=0,l=arr.length;
      int p=10,q=1,i=0;
@@ -78,12 +79,12 @@ public class RadixSort {
     int i=0;
     int m=10,n=1;
     while(i<key){
-     System.out.println("\n"+(i+1)+" time running");
      arr = sort(arr,m,n);
      m*=10;
      n*=10;
      i++;
     }
+    System.out.println("\nNumber of times loop runned : "+i);
     return arr;
     }
    
@@ -97,7 +98,7 @@ public class RadixSort {
       }
       
       int key = sort.getmax(array);
-        int[] radixSort = sort.radixSort(array,key);
+      int[] radixSort = sort.radixSort(array,key);
      System.out.print("\nArray after Radix sort: ");
       for(int i=0;i<radixSort.length;i++){
       System.out.print(radixSort[i]+" ");
