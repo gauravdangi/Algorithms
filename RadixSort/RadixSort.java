@@ -92,19 +92,17 @@ public class RadixSort {
     public static void main(String[] args) {
       RadixSort sort = new RadixSort();
       int[] array = {10,15,1,60,5,101,1001,100,999,25,50};
-      System.out.print("Array: ");
+      System.out.print("Array: |");
       for(int i=0;i<array.length;i++){
-      System.out.print(array[i]+" ");
+      System.out.print(array[i]+"|");
       }
       
       int key = sort.getmax(array);
       int[] radixSort = sort.radixSort(array,key);
-     System.out.print("\nArray after Radix sort: ");
+     System.out.print("\nArray after Radix sort: |");
       for(int i=0;i<radixSort.length;i++){
-      System.out.print(radixSort[i]+" ");
+      System.out.print(radixSort[i]+"|");
       }
-
-     System.out.println();
     }
     
 }
