@@ -14,8 +14,8 @@ For more detail: https://en.wikipedia.org/wiki/Radix_sort
 
 ## Output
 
-Array: 10 15 1 60 5 101 1001 100 999 25 50 
+Array: |10|15|1|60|5|101|1001|100|999|25|50|
 
 Number of times loop runned : 4
 
-Array after Radix sort: 1 5 10 15 25 50 60 100 101 999 1001 
+Array after Radix sort: |1|5|10|15|25|50|60|100|101|999|1001|
