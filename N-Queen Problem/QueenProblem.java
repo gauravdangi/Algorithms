@@ -33,7 +33,7 @@ public class QueenProblem {
         if(n>=N)
             return true;
         for(int i=0;i<N;i++){
-            if(isSafe2(mar,i,n)){
+            if(isSafe(mar,i,n)){
                 mar[i][n] = 1;
                 if(solveNQProblem(mar,n+1))
                     return true;
