@@ -20,7 +20,7 @@ public class QueenProblem {
 		if (mat[i][j] == 1)
 			return false;
 		}
-        for (int i = r,j = c;i<N && j>=0;i++,j--) {
+        for (int i = r,j = c;i>=0 && j<N;i--,j++) {
 		if (mat[i][j] == 1)
 			return false;
 		}
@@ -29,15 +29,14 @@ public class QueenProblem {
     }
     
      // ---------------- solveNQProblem () --------------------------------------
-   public boolean solveNQProblem(int mar[][], int n){   
-        if(n>=N)
-            return true;
-        for(int i=0;i<N;i++){
-            if(isSafe(mar,i,n)){
-                mar[i][n] = 1;
-                if(solveNQProblem(mar,n+1))
+   public boolean solveNQProblem(int mat[][], int row){   
+        if(row >= N) return true;
+        for(int col=0;col<N;col++){
+            if(isSafe(mat,row,col)){
+                mat[row][col] = 1;
+                if(solveNQProblem(mat, row+1))
                     return true;
-                mar[i][n] = 0;
+                mat[row][col] = 0;
             }
         }
         return false;
