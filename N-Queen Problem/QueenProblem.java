@@ -28,16 +28,16 @@ public class QueenProblem {
     
     }
     
-    
-    public boolean solveNQProblem(int mar[][], int col){   
-        if(col>=N)
+     // ---------------- solveNQProblem () --------------------------------------
+   public boolean solveNQProblem(int mar[][], int n){   
+        if(n>=N)
             return true;
         for(int i=0;i<N;i++){
-            if(isSafe(mar,i,col)){
-                mar[i][col] = 1;
-                if(solveNQProblem(mar,col+1))
+            if(isSafe2(mar,i,n)){
+                mar[i][n] = 1;
+                if(solveNQProblem(mar,n+1))
                     return true;
-                mar[i][col] = 0;
+                mar[i][n] = 0;
             }
         }
         return false;
@@ -61,6 +61,8 @@ public class QueenProblem {
         }
         
     }
+	
+   // ----------------------------- main () ---------------------------------------	
     public static void main(String[] args) {
         QueenProblem Q = new QueenProblem();
         Scanner scan = new Scanner(System.in);
