@@ -66,7 +66,7 @@ public class QueenProblem {
     public static void main(String[] args) {
         QueenProblem Q = new QueenProblem();
         Scanner scan = new Scanner(System.in);
-	System.out.println("State the value of N in this program!");
+	System.out.println("Enter number of rows or column in your chessboard: ");
 	N = scan.nextInt();
 	int[][] board = new int[N][N];
 	if (!Q.solveNQProblem(board, 0)) {
