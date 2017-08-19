@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/*
+@Author: Gaurav Dangi
+*/
 //returns sum of array
 int sum(int a[],int len){
     int i,sum=0;
