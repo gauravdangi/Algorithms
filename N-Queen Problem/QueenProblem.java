@@ -2,7 +2,7 @@ package pkg8.queen.problem;
 import java.util.*;
 
 /*
- * @author Gaurav
+ * @Author: Gaurav Dangi
  */
 public class QueenProblem {
     
