@@ -40,10 +40,10 @@ public void BFS(char ch){
     q.remove();
     for(int i=0;i<list.size();i++){
         char k = list.get(i);
-    if(!q.contains(k) && !output.contains(k))
-        q.add(k);
-      
+        if(!q.contains(k) && !output.contains(k))
+            q.add(k);
    }// endof for loop
+    
     if(!q.isEmpty()){
     char a  = q.peek();
     output.add(a);
