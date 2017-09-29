@@ -1,3 +1,5 @@
+## The Power Sum
+
 Find the number of ways that a given integer, , can be expressed as the sum of the  power of unique, natural numbers.
 
 ### Input Format
