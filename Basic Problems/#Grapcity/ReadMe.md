@@ -1,6 +1,7 @@
 Input : 5
 
 Output:    
+
         
     1
 
